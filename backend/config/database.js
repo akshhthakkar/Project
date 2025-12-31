@@ -36,7 +36,7 @@ const connectDB = async () => {
     console.error(`
     ╔══════════════════════════════════════╗
     ║  ❌ MongoDB Connection Failed        ║
-    ║  Error: ${error.message.padEnd(28)}  ║
+    ║  Error: ${error.message.padEnd(28)} ║
     ╚══════════════════════════════════════╝
     `);
     process.exit(1);
